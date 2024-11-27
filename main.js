@@ -63,8 +63,6 @@ function addDeleteBtn() {
 }
 
 //Musica
-const music = document.getElementById('music');
-
 function playMusic() {
   music.play().catch(error => {
       console.log('Error al intentar reproducir música:', error);
